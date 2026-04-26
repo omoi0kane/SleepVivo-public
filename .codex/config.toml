@@ -1,0 +1,40 @@
+model = "gpt-5.5"
+
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[sandbox_workspace_write]
+writable_roots = [
+  "U:\\dev\\SleepVivoShared",
+]
+
+
+[windows]
+sandbox = "elevated"
+
+[profiles.quiet]
+approval_policy = "never"
+sandbox_mode = "workspace-write"
+
+[profiles.auto]
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[mcp_servers.openaiDeveloperDocs]
+url = "https://developers.openai.com/mcp"
+
+
+[mcp_servers.context7]
+command = "npx"
+args = ["-y", "@upstash/context7-mcp"]
+startup_timeout_sec = 20
+tool_timeout_sec = 60
+
+[mcp_servers.playwright]
+command = "npx"
+args = ["-y", "@playwright/mcp@latest"]
+startup_timeout_sec = 30
+tool_timeout_sec = 120
+
+[features]
+rmcp_client = true

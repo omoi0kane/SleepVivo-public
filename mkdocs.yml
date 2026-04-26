@@ -8,6 +8,9 @@ repo_url: https://github.com/omoi0kane/SleepVivo-public
 theme:
   name: material
   language: ja
+  palette:
+    primary: custom
+    accent: custom
   features:
     - navigation.tabs
     - navigation.sections
@@ -34,7 +37,6 @@ nav:
       - プライバシー: research-program/privacy.md
   - Public Shell:
       - 概要: shell/overview.md
-      - ロードマップ: shell/roadmap.md
 
 markdown_extensions:
   - admonition
@@ -42,3 +44,6 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+
+extra_css:
+  - stylesheets/extra.css

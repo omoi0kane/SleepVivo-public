@@ -74,6 +74,7 @@ src-ui/assets/splashscreen/splash-blurhash.css
 
 # Design
 /design
+/dev
 
 # SLeepVivo-public
 .venv/
@@ -81,3 +82,5 @@ site/
 .cache/
 __pycache__/
 *.pyc
+.tmp
+.playwright-mcp
