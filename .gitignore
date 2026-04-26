@@ -1,0 +1,83 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+/tools
+/logs
+/analysis
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Yarn
+yarn.lock
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.code-workspace
+
+# Visual Studio Code
+.vscode/**
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+# ReSharper
+*.sln.DotSettings.user
+
+# Oyasumi specific
+src-ui/assets/preload-assets.json
+src-ui/assets/splashscreen/splash-blurhash.css
+
+# Steam
+/SteamSDK/
+/steamsdk.zip
+/config/config.vdf
+
+# AI Tools
+.cursorrules
+.cursorignore
+/.cursor
+.claude/
+
+# Security Key
+.env
+
+
+# Original image
+
+# Design
+/design
+
+# SLeepVivo-public
+.venv/
+site/
+.cache/
+__pycache__/
+*.pyc

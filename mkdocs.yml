@@ -1,0 +1,44 @@
+site_name: SleepVivo
+site_description: VR sleep wellness software documentation
+site_url: https://omoi0kane.github.io/SleepVivo-public/
+
+repo_name: SleepVivo-public
+repo_url: https://github.com/omoi0kane/SleepVivo-public
+
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - ユーザーガイド:
+      - インストール: user-guide/installation.md
+      - 初回設定: user-guide/first-setup.md
+      - 入眠誘導: user-guide/sleep-induction.md
+      - 起床誘導: user-guide/wake-induction.md
+      - スケジュール: user-guide/scheduler.md
+      - 設定: user-guide/settings.md
+      - トラブルシューティング: user-guide/troubleshooting.md
+  - Research Program:
+      - 概要: research-program/overview.md
+      - 同意と参加: research-program/consent.md
+      - 収集される情報: research-program/collected-data.md
+      - プライバシー: research-program/privacy.md
+  - Public Shell:
+      - 概要: shell/overview.md
+      - ロードマップ: shell/roadmap.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
