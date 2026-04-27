@@ -29,6 +29,8 @@ nav:
       - 起床誘導: user-guide/wake-induction.md
       - スケジュール: user-guide/scheduler.md
       - 設定: user-guide/settings.md
+      - 睡眠・起床の調整: user-guide/sleep-wake-settings.md
+      - 自動化・連携[advanced]: user-guide/automations.md
       - トラブルシューティング: user-guide/troubleshooting.md
   - Research Program:
       - 概要: research-program/overview.md
