@@ -25,6 +25,8 @@ nav:
   - ユーザーガイド:
       - インストール: user-guide/installation.md
       - 初回設定: user-guide/first-setup.md
+      - SleepVivo の基本機能: user-guide/basic-functions.md
+      - VR Overlay: user-guide/vr-overlay.md
       - 入眠誘導: user-guide/sleep-induction.md
       - 起床誘導: user-guide/wake-induction.md
       - スケジュール: user-guide/scheduler.md

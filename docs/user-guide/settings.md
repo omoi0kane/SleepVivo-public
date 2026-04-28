@@ -27,6 +27,8 @@
 8. 「Lighthouseコンソール」：`lighthouse_console.exe` の場所を指定します。
 9. 「管理者権限」：起動時に管理者権限を要求するか選びます。
 
+Overlay の使い方は [VR Overlay](vr-overlay.md) を確認してください。
+
 ## Research Program
 
 「一般設定」内の「Research Program」では、SleepVivo Research Program への参加を設定できます。
