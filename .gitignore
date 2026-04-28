@@ -65,6 +65,7 @@ src-ui/assets/splashscreen/splash-blurhash.css
 .cursorignore
 /.cursor
 .claude/
+.codex/
 
 # Security Key
 .env

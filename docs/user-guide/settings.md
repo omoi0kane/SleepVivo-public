@@ -11,8 +11,6 @@
 
 ![一般設定](../assets/img/settings.png)
 
-
-
 ## 一般設定
 
 「一般設定」では、アプリ全体の基本動作を設定します。
@@ -43,7 +41,6 @@ OFF のままでも SleepVivo の通常機能は利用できます。
 6. 「Research Program の詳細」の「詳細を表示」：送信される情報、送信されない情報、利用目的、外部共有、保存期間を確認します。
 
 ![一般設定](../assets/img/settings-general.png)
-
 
 詳しくは [同意と参加](../research-program/consent.md) を確認してください。
 
@@ -89,7 +86,7 @@ OFF のままでも SleepVivo の通常機能は利用できます。
 2. 「言語・翻訳」：翻訳ファイルの読み込みや翻訳エディタを開けます。
 3. 「ログファイル」：ログフォルダーを開けます。
 4. 「保存データ」：SleepVivo がローカルディスクに保存するデータを管理できます。
-5. 「トラブルシューティング」：SteamVR アプリケーションマニフェストの再登録や raw log の記録量を確認できます。
+5. 「FAQ」：SteamVR アプリケーションマニフェストの再登録や raw log の記録量を確認できます。
 
 ![詳細設定](../assets/img/settings-advanced.png)
 
@@ -112,9 +109,3 @@ OFF のままでも SleepVivo の通常機能は利用できます。
 1. 「輝度と色温度」では、色温度制御、Valve Index、Bigscreen Beyond の輝度制限などを設定します。
 2. 「外部連携」では、VRChat、Pulsoid、Home Assistant、Discord、VRCX との連携を設定します。
 3. 「OSC 設定」では、VRChat OSCQuery、カスタム OSC 送信先、OSC サーバー受信を設定します。
-
-
-## 困ったとき
-
-設定の意味がわからない場合は、無理に変更しないでください。
-Pre-Alpha 版では、小さな問題や不明点でも Discord でハルジオン @fleabane_haru に連絡してください。

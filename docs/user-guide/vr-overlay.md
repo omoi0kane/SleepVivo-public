@@ -84,19 +84,3 @@ Research Program への参加は任意です。
 氏名、VRChat アカウント、音声、映像、スクリーンショットは送信されません。
 
 詳しくは [Research Program 概要](../research-program/overview.md) と [収集される情報](../research-program/collected-data.md) を確認してください。
-
-## 困ったとき
-
-Overlay が開かない場合は、次を確認してください。
-
-1. SteamVR が起動しているか。
-2. 「オーバーレイメニューを有効にする」が ON か。
-3. コントローラーバインディングが設定されているか。
-4. 「VRChatが実行中の場合のみメニューを開く」を ON にしている場合、VRChat が起動しているか。
-5. SteamVR ダッシュボードを開いたままにしていないか。
-
-## Review Checklist
-
-- source files consulted: `U:\dev\SleepVivo\src-overlay-ui\src\routes\dashboard\Overview.svelte`, `U:\dev\SleepVivo\src-overlay-ui\src\routes\dashboard\Survey.svelte`, `U:\dev\SleepVivo\src-overlay-ui\src\routes\dashboard\DeviceControl.svelte`, `U:\dev\SleepVivo\src-overlay-ui\src\lib\components\BrightnessSliders.svelte`, `U:\dev\SleepVivo\src-ui\app\services\sleep-vivo-user-actions.service.ts`, `U:\dev\SleepVivo\src-ui\app\services\sleep-vivo-user-actions-runtime-core.ts`, `U:\dev\SleepVivo\src-ui\app\services\overlay\overlay.service.ts`, `U:\dev\SleepVivo\src-ui\app\views\dashboard-view\views\settings-general-view\settings-general-view.component.html`, `U:\dev\SleepVivo\src-ui\assets\i18n\ja.json`
-- assumptions made: Overlay のスクリーンショットは未配置のため、テキストのプレースホルダーとして記載。操作ボタンは現状UIに合わせて英語表記で記載
-- items requiring human confirmation: VR Overlay 画面のスクリーンショットを追加する。操作ボタンが日本語化された場合は文言を更新する

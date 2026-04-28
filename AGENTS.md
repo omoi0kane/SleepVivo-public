@@ -1,4 +1,4 @@
-# SleepVivo Documentation Rules
+﻿# SleepVivo Documentation Rules
 
 ## Product name
 Use "SleepVivo". Do not use "SleepFit" except when explicitly discussing historical provenance.
@@ -28,10 +28,8 @@ Prefer concrete steps over abstract explanation.
 Use screenshots placeholders when screenshots are needed.
 
 ## Review
-Every generated page must include a final checklist:
-- source files consulted
-- assumptions made
-- items requiring human confirmation
+Do not include review checklists or internal review notes in public Markdown pages.
+Keep source files consulted, assumptions made, and items requiring human confirmation in PR comments or private review notes only.
 
 
 # SleepVivo Encoding / 日本語ファイル編集ポリシー
@@ -74,7 +72,7 @@ Every generated page must include a final checklist:
 - VS Code エディタでの直接編集
 - PowerShell 7 (`pwsh`) による encoding 明示編集
 - Python / Node.js による encoding 明示編集
-- U:\dev\SleepVivo-public\tools 配下の安全スクリプトの使用
+- リポジトリ内の `tools` 配下の安全スクリプトの使用
 
 ---
 
@@ -82,7 +80,7 @@ Every generated page must include a final checklist:
 
 日本語ファイルを編集する場合：
 
-1. U:\dev\SleepVivo-public\tools の既存スクリプトを確認
+1. リポジトリ内の `tools` の既存スクリプトを確認
 2. あればそれを使用
 3. なければ Python スクリプトで追加（utf-8-sig）
 4. 編集後に必ず確認
