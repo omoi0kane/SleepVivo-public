@@ -31,16 +31,23 @@ SleepVivo は現在 Pre-Alpha 版です。
 
 SleepVivo を 自動で起動する場合は、以下の手順で設定します。
 
-1. SleepVivo を一度起動します。
-2. SteamVR を起動します。
-3. SteamVR の「設定」を開きます。
-4. 「スタートアップ/シャットダウン」を開きます。
-5. 「スタートアップオーバーレイアプリを選択」を開きます。
-6. SleepVivo を「オン」にします。
-7. SteamVRを再起動します。
+1. SleepVivo をインストールします
+2. SteamVR を起動します
+3. SleepVivo を起動します
+3. SteamVR の「設定」を開きます
+4. 「スタートアップ/シャットダウン」を開きます
+5. 「スタートアップオーバーレイアプリを選択」を開きます
+6. SleepVivo を「オン」にします
+7. SleepVivoを修了したあと、SteamVRを再起動します
+8. SteamVR と同時にSleepVivo が起動することを確認します
+
+!!! warning "初回設定時はSteamVRを立ち上げてからSleepVivoを起動してください"
+    SleepVivo を先に起動していると、SteamVRのスタートアップオーバーレイアプリに表示されない場合があります。
+
 ![SteamVR設定](../assets/img/steamvr-startup.png)
 
 アプリ内でも、「設定」>「一般設定」>「起動と終了」>「SteamVRと起動」の「詳細」から、同じ案内を確認できます。
+
 
 ## 更新する場合
 
