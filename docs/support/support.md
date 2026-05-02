@@ -8,6 +8,7 @@
 ## 連絡先
 
 問題が起きた場合や設定で迷った場合は、Discord でハルジオン @fleabane_haru に連絡してください。
+また使い方が分かる方は[Github issue](https://github.com/omoi0kane/SleepVivo-public/issues)へ報告いただくのも歓迎です。
 
 ## サポートへ連絡する前に
 
