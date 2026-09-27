@@ -23,6 +23,11 @@ SleepVivo は現在 0.2.5 Pre-Alpha 版です。
 
 * 任意参加の Research Program で、観測セッションの要約が送信できない場合がある問題を修正
 
+### 0.2.4 Pre-Alpha
+
+* SteamVR と同時に起動した際、VR オーバーレイに `127.0.0.1` の 404 エラーが表示される問題を修正。オーバーレイの画面ファイルの読み込み経路を改善しました（[issue #1](https://github.com/omoi0kane/SleepVivo-public/issues/1)）。
+* アプリ内に「調査用ログ提出」を追加。問題が起きた日付とログの種類を選んで提出できます。提出には Research Program への参加が必要です。
+
 ### 0.2.3 Pre-Alpha (2026/5/2)
 
 * Pre-Alphaリリースバージョン（限定配布）の更新版
