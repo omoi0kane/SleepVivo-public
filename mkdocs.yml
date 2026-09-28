@@ -43,6 +43,7 @@ nav:
   - 開発情報:
       - リリースノート: development/release-notes.md
       - Public Shell: development/public-shell.md
+      - Polarを基準にした初期評価: development/polar-baseline.md
 
 markdown_extensions:
   - admonition
