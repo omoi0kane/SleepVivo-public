@@ -42,6 +42,11 @@ nav:
       - 同意と参加: research-program/consent.md
       - 収集される情報: research-program/collected-data.md
       - プライバシー: research-program/privacy.md
+  - 研究者向け:
+      - researcher-guide/index.md
+      - SleepVivo のデータ構造: researcher-guide/data-structure.md
+      - SleepVivo CSV Exporter: researcher-guide/csv-exporter.md
+      - SurfCSViewer: researcher-guide/surfcsviewer.md
   - 開発情報:
       - リリースノート: development/release-notes.md
       - Public Shell: development/public-shell.md
