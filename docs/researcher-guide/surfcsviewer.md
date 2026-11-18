@@ -10,10 +10,18 @@ SurfCSViewer で CSV の波形を表示し、SleepVivo が記録したイベン�
 4. 読み込み後、上部の **Data source** で表示する表を切り替えます。たとえば、HMD の生観測と時間窓の特徴量はそれぞれの表として開きます。
 5. **Recorded labels / original summary** から、記録済みラベルと元の要約を確認します。時刻が確定した表示対象のイベントは波形にも重なります。要約は保存済みの値で、画面の選択範囲を変えても再集計されません。
 
+[![SurfCSViewer の Import related CSV files。位置の3軸と記録済みイベントが選択されている](../assets/img/researcher-viewer-import.jpg)](../assets/img/researcher-viewer-import.jpg)
+
+合成データの例です。位置の3軸と、一覧の下にある **Read-only recorded events / intervals** を選んでいます。 画像をクリックすると原寸で開きます。
+
 !!! note "取込でエラーが出る場合"
     選択した数値に NaN・無限大・空欄・不正値があると今回の取込が止まり、以前の表示が残ります。エラーに表示されたファイル、行、列、時刻を確認し、不要な列を外すか Exporter で出力条件を変えます。古い Viewer で長い要約に関するエラーが出る場合は、集計を外して波形・イベントを読み込めます。
 
 ## 波形を確認する
+
+[![SurfCSViewer の表示画面。上段の波形に記録済みイベントの帯が重なり、右側にチャンネルの選択欄がある](../assets/img/researcher-viewer-waveform.jpg)](../assets/img/researcher-viewer-waveform.jpg)
+
+合成データの表示例です。横軸は経過秒です。上段の淡い黄色の帯が記録済みのイベント区間で、赤い縦線はカーソルです。
 
 | 操作 | 使い方 |
 | --- | --- |
