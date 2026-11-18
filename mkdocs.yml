@@ -32,6 +32,7 @@ nav:
       - 自動化・連携[advanced]: user-guide/automations.md
       - 設定: user-guide/settings.md
       - 睡眠ログ: user-guide/sleep-logs.md
+      - デバイス管理: user-guide/device-manager.md
       - VR Overlay: user-guide/vr-overlay.md
   - サポート:
       - FAQ: support/faq.md
