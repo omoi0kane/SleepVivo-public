@@ -55,6 +55,18 @@ HMDから取得された睡眠などに関する情報は、ユーザーのPC内
 ユーザー情報が外部送信されるのは、[SleepVivo Research Program](../research-program/overview.md) への参加に同意いただいた場合のみです。
 例外は、Research Programへの参加を撤回した際の同意撤回メッセージのみです。
 
+## 起床後のアンケートが見つからない
+
+起床を確定したあと、「概要」または「睡眠ログ」で回答できる記録を確認してください。「集計中」でも回答できます。詳しくは[睡眠ログ](../user-guide/sleep-logs.md)をご覧ください。
+
+## 睡眠ログに「音声分析なし」と表示される
+
+[一般設定の音声分析](../user-guide/settings.md#audio-analysis)を開き、音声分析が動作中か、目的のマイクが接続されているか、ミュートになっていないかを確認してください。
+
+## HMDが Offline と表示される
+
+HMDとSteamVRの接続を確認してください。HMDから観測できなかった区間は、睡眠ログの分析結果が一部表示されないことがあります。
+
 ## SleepVivo Research Program とは？
 
 VR 睡眠体験の改善と、VR 環境における睡眠傾向の研究を目的とした任意参加のプログラムです。
@@ -62,6 +74,3 @@ Research Program への参加は任意です。参加しない場合でも、Sle
 
 送信される情報に不安がある場合は、Research Program を OFF のまま使ってください。
 送信される情報と送信されない情報は [収集される情報](../research-program/collected-data.md) を確認してください。
-
-
-

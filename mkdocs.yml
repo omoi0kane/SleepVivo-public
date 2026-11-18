@@ -31,6 +31,7 @@ nav:
       - 睡眠・起床の調整: user-guide/sleep-wake-settings.md
       - 自動化・連携[advanced]: user-guide/automations.md
       - 設定: user-guide/settings.md
+      - 睡眠ログ: user-guide/sleep-logs.md
       - VR Overlay: user-guide/vr-overlay.md
   - サポート:
       - FAQ: support/faq.md
